@@ -7,16 +7,16 @@
   "author": "Patrik Wallström",
   "authorEmail": "pawal@amplitut.de",
   "authorUrl": "https://pawal.amplitut.de/",
-  "pluginUrl": "",
-  "manualUrl": "",
-  "sourceUrl": "",
+  "pluginUrl": "https://github.com/pawal/ask-vcv-modules",
+  "manualUrl": "https://github.com/pawal/ask-vcv-modules",
+  "sourceUrl": "https://github.com/pawal/ask-vcv-modules",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/pawal/ask-vcv-modules/commits/main",
   "modules": [
     {
       "slug": "rnsh",
       "name": "rnsh",
-      "description": "8 channel noise generator with sample and hold",
+      "description": "8 channel noise generator with sample and hold, with a global spread attenuator",
       "tags": [
         "Random",
         "Noise",
