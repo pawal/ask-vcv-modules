@@ -1,0 +1,29 @@
+{
+  "slug": "ASK",
+  "name": "ASK",
+  "version": "2.0.0",
+  "license": "BSD-2-Clause",
+  "brand": "ÄSK",
+  "author": "Patrik Wallström",
+  "authorEmail": "pawal@amplitut.de",
+  "authorUrl": "https://pawal.amplitut.de/",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "rnsh",
+      "name": "rnsh",
+      "description": "8 channel noise generator with sample and hold",
+      "tags": [
+        "Random",
+        "Noise",
+        "S&H",
+        "Sample and Hold",
+        "Sample & Hold"
+      ]
+    }
+  ]
+}
