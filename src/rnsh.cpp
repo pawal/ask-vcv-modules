@@ -85,7 +85,6 @@ struct Rnsh : Module {
 		if (inputs[inputGate].isConnected()) {
 			// if gate state is set to high, output a new noise value to channel
 			g[Gstate] = inputs[inputGate].getVoltage();
-			//g[Gstate] = trigger.process(rescale(g[Gstate], 0.1f, 2.f, 0.f, 1.f));
 			g[Gstate] = triggers[Gstate].process(rescale(g[Gstate], 0.1f, 2.f, 0.f, 1.f));
 			if (g[Gstate] > 0.5f && pg[Gstate] < 0.5f) {
 				pg[Gstate] = g[Gstate];
