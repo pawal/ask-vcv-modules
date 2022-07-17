@@ -7,6 +7,6 @@ This repository contains modules created by Patrik Wallström for [VCV Rack](htt
 
 8 channel white noise with sample and hold.
 
-![screenshot of rnsh](https://raw.githubusercontent.com/pawal/ask-vcv-modules/main/screenshots/rnsh-screenshot.png)
+<img width="75%" alt="screenshot of rnsh" src="https://raw.githubusercontent.com/pawal/ask-vcv-modules/main/screenshots/rnsh-screenshot.png"/>
 
 This module makes it easy to have playable randomness for generative music, using the spread button or its CV input.
