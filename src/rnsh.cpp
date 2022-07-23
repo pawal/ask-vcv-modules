@@ -52,14 +52,14 @@ struct Rnsh : Module {
 		configInput(GATE7_INPUT, "Gate 7, triggers S&H");
 		configInput(GATE8_INPUT, "Gate 8, triggers S&H");
 		configInput(INPUT1_INPUT, "Spread control input (0 - 10V), multiplies all outputs");
-		configOutput(OUT1_OUTPUT, "Outputs white noise if Gate 1 is not connected, S&H on trigger");
-		configOutput(OUT2_OUTPUT, "Outputs white noise if Gate 1 is not connected, S&H on trigger");
-		configOutput(OUT3_OUTPUT, "Outputs white noise if Gate 1 is not connected, S&H on trigger");
-		configOutput(OUT4_OUTPUT, "Outputs white noise if Gate 1 is not connected, S&H on trigger");
-		configOutput(OUT5_OUTPUT, "Outputs white noise if Gate 1 is not connected, S&H on trigger");
-		configOutput(OUT6_OUTPUT, "Outputs white noise if Gate 1 is not connected, S&H on trigger");
-		configOutput(OUT7_OUTPUT, "Outputs white noise if Gate 1 is not connected, S&H on trigger");
-		configOutput(OUT8_OUTPUT, "Outputs white noise if Gate 1 is not connected, S&H on trigger");
+		configOutput(OUT1_OUTPUT, "Outputs white noise if Gate 1 is not connected, S&H using the gate");
+		configOutput(OUT2_OUTPUT, "Outputs white noise if Gate 2 is not connected, S&H using the gate");
+		configOutput(OUT3_OUTPUT, "Outputs white noise if Gate 3 is not connected, S&H using the gate");
+		configOutput(OUT4_OUTPUT, "Outputs white noise if Gate 4 is not connected, S&H using the gate");
+		configOutput(OUT5_OUTPUT, "Outputs white noise if Gate 5 is not connected, S&H using the gate");
+		configOutput(OUT6_OUTPUT, "Outputs white noise if Gate 6 is not connected, S&H using the gate");
+		configOutput(OUT7_OUTPUT, "Outputs white noise if Gate 7 is not connected, S&H using the gate");
+		configOutput(OUT8_OUTPUT, "Outputs white noise if Gate 8 is not connected, S&H using the gate");
 	}
 
 	void process(const ProcessArgs& args) override {
