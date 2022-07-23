@@ -25,14 +25,14 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.2969159"
-     inkscape:cx="95.996973"
+     inkscape:cx="96.768033"
      inkscape:cy="242.11285"
      inkscape:window-width="1408"
      inkscape:window-height="916"
      inkscape:window-x="104"
      inkscape:window-y="38"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer2">
+     inkscape:current-layer="text1888">
     <inkscape:grid
        type="xygrid"
        id="grid2308" />
@@ -74,7 +74,8 @@
          height="75.483559"
          x="17.952847"
          y="19.380915"
-         inkscape:label="Marked Outputs" />
+         inkscape:label="Marked Outputs"
+         ry="3.2641542" />
       <g
          aria-label="ÄSK"
          id="text1722"
