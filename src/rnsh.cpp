@@ -129,10 +129,10 @@ struct RnshWidget : ModuleWidget {
 		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(8.138, 33.773)), module, Rnsh::GATE2_INPUT));
 		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(8.138, 43.389)), module, Rnsh::GATE3_INPUT));
 		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(8.138, 52.536)), module, Rnsh::GATE4_INPUT));
-		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(8.137, 61.918)), module, Rnsh::GATE5_INPUT));
-		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(8.137, 71.065)), module, Rnsh::GATE6_INPUT));
-		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(8.137, 80.564)), module, Rnsh::GATE7_INPUT));
-		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(8.137, 89.712)), module, Rnsh::GATE8_INPUT));
+		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(8.138, 61.918)), module, Rnsh::GATE5_INPUT));
+		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(8.138, 71.065)), module, Rnsh::GATE6_INPUT));
+		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(8.138, 80.564)), module, Rnsh::GATE7_INPUT));
+		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(8.138, 89.712)), module, Rnsh::GATE8_INPUT));
 		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(8.16, 102.821)), module, Rnsh::INPUT1_INPUT));
 
 		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(22.242, 24.625)), module, Rnsh::OUT1_OUTPUT));
